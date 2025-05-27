@@ -2,7 +2,7 @@ describe('Login', () => {
 
     beforeEach(() => {
         cy.visit('https://automationpratice.com.br/login');
-        // cy.get('a[href="/login"]').first().click();
+        cy.get('a[href="/login"]').first().click();
         
     });    
     it('Login com sucesso', () => {
