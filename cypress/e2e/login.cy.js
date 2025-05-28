@@ -9,7 +9,7 @@ describe('Login', () => {
 
         cy.get('#user').type('yuri@qa.com');
         cy.get('#password').type('123456');
-        cy.get('#btnLogin').click();
+        cy.get('#btnLoginnnnn').click();
 
         // cy.get('#swal2-title').should('be.visible');
         cy.get('#swal2-title').should('have.text', 'Login realizado');
